@@ -1,20 +1,24 @@
 # Installation
 
-For many, the easiest way to install Spectral is as a node module.
+For many, the easiest way to install Spectral is as a [Node.js](https://nodejs.org/) module.
 
 ```bash
 npm install -g @stoplight/spectral-cli
 ```
 
-If you are a Yarn user:
+If you are a [Yarn](https://yarnpkg.com/) user:
 
 ```bash
 yarn global add @stoplight/spectral-cli
 ```
 
+Spectral supports the Maintenance LTS version and newer.
+The Node.js [releases page](https://nodejs.org/en/about/releases/) has an overview of the current releases.
+It is generally recommended to use Active LTS or Maintenance LTS.
+
 ## Executable Binaries
 
-For users without Node and/or NPM/Yarn, we provide standalone packages for [all major platforms](https://github.com/stoplightio/spectral/releases). The quickest way to install the appropriate package for your operating system is via this shell script:
+For users without Node.js and/or NPM/Yarn, we provide standalone packages for [all major platforms](https://github.com/stoplightio/spectral/releases). The quickest way to install the appropriate package for your operating system is via this shell script:
 
 ```bash
 curl -L https://raw.github.com/stoplightio/spectral/master/scripts/install.sh | sh
